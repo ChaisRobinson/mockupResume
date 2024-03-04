@@ -64,6 +64,7 @@ body {
 .aboutMe{
     border: solid black;
     padding: 20px;
+    text-align: justify;
     
 }
 
