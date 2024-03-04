@@ -162,7 +162,9 @@ body {
   .color-list li:nth-child(4)::before {
     background-color: orange;
   }
-
+  .color-list li:nth-child(5)::before {
+    background-color: yellow;
+  }
   ul {
     list-style: none;
     padding: 0;
