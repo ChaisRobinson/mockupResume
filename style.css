@@ -86,33 +86,6 @@ body {
 .bottumBox{
     display:flex;
 
-}
-/* 
-.progress {
-    display: -ms-flexbox;
-    display: flex;
-    height: 1.5rem;
-    overflow: hidden;
-    line-height: 0;
-    font-size: .95rem;
-    background-color: #e9ecef;
-    border-radius: 0.25rem;
-    margin-bottom: 1rem;
-}
-.progress-bar {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: center;
-    justify-content: center;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #007bff;
-    transition: width .6s ease;
-} */
 
 .progress {
   display: -ms-flexbox;
@@ -189,29 +162,30 @@ body {
     background-color: orange;
   }
 
-  .bubble-container {
-    display: flex;
-    align-items: center;
+  ul {
+    list-style: none;
+    padding: 0;
   }
-  
-  .bubble {
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .rating {
+    display: inline-block;
+    width: 150px; /* Adjust width as needed */
+  }
+
+  .rating .bubble {
+    display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: yellowgreen;
+    background-color: #ccc;
     margin-right: 5px;
   }
-  
-  .filled {
-    background-color: yellowgreen;
+
+  .rating .filled {
+    background-color: red; /* Change this to your desired filled color */
   }
-
-
-/* The last bubble which is unfilled */
-.bubble:last-child {
-  background-color: transparent;
-}
-
-
-
 
