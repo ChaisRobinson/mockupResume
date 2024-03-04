@@ -140,13 +140,13 @@ body {
   .color-list li::before {
     content: "";
     display: inline-block;
-    width: 20px; /* Adjust the width of the color box */
-    height: 20px; /* Adjust the height of the color box */
-    margin-right: 10px; /* Adjust spacing between the color box and text */
-    background-color: red; /* Change the color */
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; /
+    background-color: red; 
   }
   
-  /* Different color for each point */
+  
   .color-list li:nth-child(1)::before {
     background-color: red;
   }
@@ -174,7 +174,7 @@ body {
 
   .rating {
     display: inline-block;
-    width: 150px; /* Adjust width as needed */
+    width: 150px; 
   }
 
   .rating .bubble {
@@ -187,6 +187,6 @@ body {
   }
 
   .rating .filled {
-    background-color: red; /* Change this to your desired filled color */
+    background-color: red; 
   }
 
