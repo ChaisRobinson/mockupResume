@@ -87,7 +87,7 @@ body {
     display:flex;
 
 }
-
+/* 
 .progress {
     display: -ms-flexbox;
     display: flex;
@@ -112,6 +112,46 @@ body {
     white-space: nowrap;
     background-color: #007bff;
     transition: width .6s ease;
+} */
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 1.5rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .95rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
+
+
+.bg-info {
+  background-color: #17a2b8!important;
+}
+.bg-warning {
+  background-color: #ffc107!important;
+}
+.bg-success {
+  background-color: #28a745!important;
+}
+.bg-danger {
+  background-color: #dc3545!important;
 }
 
 .color-list {
